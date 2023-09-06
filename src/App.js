@@ -18,6 +18,9 @@ function App() {
    <Route path='/add-on' element={<AddOn />}/>
    <Route path='/finish-up' element={<FinishUp/>}/>
    <Route path='/thank-you' element={<ThankYou/>}/>
+   <Route path='*' element={<PersonalInfo/>}/>
+  
+  
  
     </Routes>
     </React.Fragment>
